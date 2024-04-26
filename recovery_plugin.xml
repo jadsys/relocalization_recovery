@@ -1,0 +1,7 @@
+<library path="lib/librelocalization_recovery">
+  <class name="relocalization_recovery/RelocalizationRecovery" type="relocalization_recovery::RelocalizationRecovery" base_class_type="nav_core::RecoveryBehavior">
+    <description>
+      A recovery behavior that self-position estimation is performed again using the location information obtained from outside.
+    </description>
+  </class>
+</library>

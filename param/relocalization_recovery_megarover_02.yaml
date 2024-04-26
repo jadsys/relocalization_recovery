@@ -1,0 +1,9 @@
+relocalization_recovery:
+## 位置情報取得要求の配信トピック名
+  pub_get_position_topic: /robot_bridge/megarover_02/get_position_data
+
+## 位置情報取得結果の受信トピック名
+  sub_get_position_result_topic: /megarover_02/initialpose
+
+## タイムアウト時間
+  get_position_timeout: 10.0
